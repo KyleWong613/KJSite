@@ -133,6 +133,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".well-known\brave-rewards-verification.txt" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\component.css" />
     <Content Include="Content\css\font-awesome-animation.css" />

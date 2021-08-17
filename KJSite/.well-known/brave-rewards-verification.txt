@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kaijeng.netlify.app
+Token: bc1bed67124a957a54165e6019a0dc3a9a483f5d1ef616ed1ac6da2a7a18d9d1
