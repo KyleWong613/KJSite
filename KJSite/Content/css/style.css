@@ -180,11 +180,9 @@ font-weight: 900;
     HOME SECTION STYLES
 ==================================================*/
 
-
 .head-btn-one {
     background-color: rgba(252, 64, 101, 1);
-     border: 0px solid #fff;
-
+    border: 0px solid #fff;
 }
 
 #home {
@@ -209,8 +207,7 @@ font-weight: 900;
 }
 
 .btn-lg, .btn-group-lg > .btn {
-border-radius: 0px; 
-
+    border-radius: 5px 5px 5px 5px !important;
 }
 
 /*=======================================
@@ -221,10 +218,11 @@ border-radius: 0px;
     float: left;
     position: relative;
     width: 100%;
-}
+}s
 .team-member > img {
     float: left;
-    width: 100%;
+    width: 35%;
+    height: 35%;
 }
 .team-member > h3 {
     background: rgba(252, 64, 101, 1);
