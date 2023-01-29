@@ -22,17 +22,3 @@ select,
 textarea {
     max-width: 280px;
 }
-
-/* icon size */
-.icon-size {
-    height: 50px;
-    width: 50px;
-}
-
-
-@media (max-width: 767px) {
-    .icon-size {
-        height: 30px !important;
-        width: 30px !important;
-    }
-}
