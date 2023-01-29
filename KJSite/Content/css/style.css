@@ -423,8 +423,8 @@ font-size: 30px;
 
 /* icon size */
 .icon-size {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
 }
 
 @media (max-width: 767px) {
