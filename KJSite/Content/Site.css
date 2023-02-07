@@ -22,3 +22,7 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.f14 {
+    font-size: 14px;
+}
