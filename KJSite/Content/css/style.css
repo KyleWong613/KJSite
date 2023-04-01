@@ -426,6 +426,11 @@ font-size: 30px;
     height: 35px;
     width: 35px;
 }
+/* icon size tall*/
+.icon-size-tall {
+    height: 40px;
+    width: 35px;
+}
 
 @media (max-width: 767px) {
     .icon-size {
