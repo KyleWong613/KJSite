@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.kaijeng.netlify.app [NC]
+RewriteRule ^(.*)$ https://kaijeng.netlify.app/$1 [L,R=301]
