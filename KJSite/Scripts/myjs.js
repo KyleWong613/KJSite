@@ -4,6 +4,7 @@
     let education = 'education'
     let relaxation = 'relaxation'
     let cooking = 'cooking'
+    let busywork = 'busywork'
     //education
     $.ajax({
         url: boredapi + "?type=" + education,
@@ -29,6 +30,15 @@
         dataType: 'json',
         success: function (boredthing) {
             $('.cooking-activity').html(boredthing.activity);
+        }
+    });
+    //busywork
+    $.ajax({
+        url: boredapi + "?type=" + busywork,
+        contentType: "application/json",
+        dataType: 'json',
+        success: function (boredthing) {
+            $('.busywork-activity').html(boredthing.activity);
         }
     });
 });
