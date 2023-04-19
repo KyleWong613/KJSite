@@ -3,6 +3,7 @@
     let boredapi = 'https://www.boredapi.com/api/activity'
     let education = 'education'
     let relaxation = 'relaxation'
+    let cooking = 'cooking'
     //education
     $.ajax({
         url: boredapi + "?type=" + education,
@@ -19,6 +20,15 @@
         dataType: 'json',
         success: function (boredthing) {
             $('.relax-activity').html(boredthing.activity);
+        }
+    });
+    //cooking
+    $.ajax({
+        url: boredapi + "?type=" + cooking,
+        contentType: "application/json",
+        dataType: 'json',
+        success: function (boredthing) {
+            $('.cooking-activity').html(boredthing.activity);
         }
     });
 });
