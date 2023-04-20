@@ -23,15 +23,6 @@
             $('.relax-activity').html(boredthing.activity);
         }
     });
-    //cooking
-    $.ajax({
-        url: boredapi + "?type=" + cooking,
-        contentType: "application/json",
-        dataType: 'json',
-        success: function (boredthing) {
-            $('.cooking-activity').html(boredthing.activity);
-        }
-    });
     //busywork
     $.ajax({
         url: boredapi + "?type=" + busywork,
@@ -41,6 +32,16 @@
             $('.busywork-activity').html(boredthing.activity);
         }
     });
+    //cooking
+    $.ajax({
+        url: boredapi + "?type=" + cooking,
+        contentType: "application/json",
+        dataType: 'json',
+        success: function (boredthing) {
+            $('.cooking-activity').html(boredthing.activity);
+        }
+    });
+   
 });
 
 
