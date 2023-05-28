@@ -34,7 +34,7 @@ textarea {
     margin: 0 auto 50px auto;
 }
 .part-img img {
-    width: 100%;
+    width: 70%;
     -webkit-animation: 5s bounce linear infinite;
     animation: 5s bounce linear infinite;
 }
