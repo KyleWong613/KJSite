@@ -26,3 +26,15 @@ textarea {
 .f14 {
     font-size: 14px;
 }
+
+
+/* index*/
+.part-img {
+    width: 290px;
+    margin: 0 auto 50px auto;
+}
+.part-img img {
+    width: 100%;
+    -webkit-animation: 5s bounce linear infinite;
+    animation: 5s bounce linear infinite;
+}

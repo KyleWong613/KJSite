@@ -154,8 +154,6 @@
     <Content Include="Content\plugins\bootstrap.js" />
     <Content Include="Content\plugins\jquery-1.10.2.js" />
     <Content Include="Content\plugins\vegas\images\loading.html" />
-    <Content Include="Content\plugins\vegas\jquery.vegas.min.css" />
-    <Content Include="Content\plugins\vegas\jquery.vegas.min.js" />
     <Content Include="Content\plugins\vegas\overlays\01.png" />
     <Content Include="Content\plugins\vegas\overlays\02.png" />
     <Content Include="Content\plugins\vegas\overlays\03.png" />
