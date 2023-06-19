@@ -36,11 +36,11 @@ h1 {
 content: '';
 display: block;
 position: absolute;
-width: 120px;
+width: 230px;
 height: 1px;
 background: #fff;
 margin: auto;
-left: -150px;
+left: -80%;
 right: 0;
 }
 
@@ -52,12 +52,12 @@ width: 120px;
 height: 1px;
 background: #fff;
 margin: auto;
-left: 0;
-right: -150px;
+left: 6%;
 }
 .pad-adjust {
-    padding-top: 5px; 
+    padding-top: 5px;
     padding-bottom: 5px;
+    padding-right: 75%;
 }
 
 .text-center {

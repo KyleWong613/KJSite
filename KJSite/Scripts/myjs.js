@@ -44,23 +44,24 @@
    
 });
 
-function Introduction(job, about, contact, name) {
+function Introduction(header, job, about, contact, name) {
+    this.header = header;
     this.jobTitle = job;
     this.aboutMe = about;
     this.contactMe = contact;
     this.myName = name;
 }
-const Me = new Introduction("Software Developer", "About Me", "Contact Me", "Kai Jeng");
+const Me = new Introduction("Kai Jeng", "Software Developer", "About Me", "Contact Me", "Kai Jeng");
 //new title
 Introduction.prototype.softeng = "Software Engineer";
 
 $(".softeng").html(Introduction.prototype.softeng);
 $(".about-me").html(Me.aboutMe);
 $(".contact-me").html(Me.contactMe); 
-var contact = Me.contactMe.substring(0, contact.length - 'Me'.length);
+var contact = Me.contactMe.substring(0, Me.contactMe.length - 'Me'.length);
 $(".contact").html(contact);
 $(".myName").html(Introduction.myName);
-
+$(".top-title").html(Introduction.header);
 
 var currentYear = new Date().getFullYear(); 
 $('.currentyear').text(currentYear);
