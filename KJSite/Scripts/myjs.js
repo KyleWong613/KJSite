@@ -50,14 +50,15 @@ function Introduction(job, about, contact, name) {
     this.contactMe = contact;
     this.myName = name;
 }
-const me = new Introduction("Software Developer", "About Me", "Contact Me", "Kai Jeng");
-
+const Me = new Introduction("Software Developer", "About Me", "Contact Me", "Kai Jeng");
+//new title
 Introduction.prototype.softeng = "Software Engineer";
 
-$(".softeng").html(Introduction.softeng);
-$(".about-me").html(Introduction.aboutMe);
-$(".contact-me").html(Introduction.aboutMe);
-$(".contact-me").html(Introduction.softeng);
+$(".softeng").html(Introduction.prototype.softeng);
+$(".about-me").html(Me.aboutMe);
+$(".contact-me").html(Me.contactMe); 
+var contact = Me.contactMe.substring(0, contact.length - 'Me'.length);
+$(".contact").html(contact);
 $(".myName").html(Introduction.myName);
 
 
