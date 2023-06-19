@@ -44,10 +44,21 @@
    
 });
 
-Object.prototype.softeng = "Software Engineer";
-var se = {};
-$(".softeng").html(se.softeng);
-console.log(se.softeng); //5
+function Introduction(job, about, contact, name) {
+    this.jobTitle = job;
+    this.aboutMe = about;
+    this.contactMe = contact;
+    this.myName = name;
+}
+const me = new Introduction("Software Developer", "About Me", "Contact Me", "Kai Jeng");
+
+Introduction.prototype.softeng = "Software Engineer";
+
+$(".softeng").html(Introduction.softeng);
+$(".about-me").html(Introduction.aboutMe);
+$(".contact-me").html(Introduction.aboutMe);
+$(".contact-me").html(Introduction.softeng);
+$(".myName").html(Introduction.myName);
 
 
 var currentYear = new Date().getFullYear(); 
