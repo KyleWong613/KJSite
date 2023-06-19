@@ -44,6 +44,11 @@
    
 });
 
+Object.prototype.softeng = "Software Engineer";
+var se = {};
+$(".softeng").html(se.softeng);
+console.log(se.softeng); //5
+
 
 var currentYear = new Date().getFullYear(); 
 $('.currentyear').text(currentYear);
