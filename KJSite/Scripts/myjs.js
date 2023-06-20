@@ -44,25 +44,46 @@
    
 });
 
-function Introduction(header, job, about, contact, name) {
+function Introduction(header, job, about, contact, name, certs) {
     this.header = header;
     this.jobTitle = job;
     this.aboutMe = about;
     this.contactMe = contact;
     this.myName = name;
+    this.myCerts = certs;
 }
-const Me = new Introduction("Kai Jeng", "Software Developer", "About Me", "Contact Me", "Kai Jeng");
+function Socials(fb, mail, twitter, github, linkedin, phone) {
+    this.fb = fb;
+    this.mail = mail;
+    this.twitter = twitter;
+    this.github = github;
+    this.linkedin = linkedin;
+    this.phone = phone;
+}
+
+const Me = new Introduction("Kai Jeng", "Software Developer", "About Me", "Contact Me", "Kai Jeng", "My Certifications");
+const socials = new Socials("", "kaijengre2@gmail.com", "", "KyleWong613", "LinkedIn", "017-5597576");
 //new title
 Introduction.prototype.softeng = "Software Engineer";
 
+$(".top-title").html(Introduction.header);
 $(".softeng").html(Introduction.prototype.softeng);
 $(".about-me").html(Me.aboutMe);
 $(".contact-me").html(Me.contactMe); 
 var contact = Me.contactMe.substring(0, Me.contactMe.length - 'Me'.length);
 $(".contact").html(contact);
 $(".myName").html(Introduction.myName);
-$(".top-title").html(Introduction.header);
+$(".my-certifications").html(Introduction.myCerts);
 
+
+//Socials
+$(".gmail").html(Socials.github);
+$(".github").html(Socials.github);
+$(".linkedin").html(Socials.linkedin);
+$(".phone-no").html(Socials.phone);
+
+
+//This year
 var currentYear = new Date().getFullYear(); 
 $('.currentyear').text(currentYear);
 
