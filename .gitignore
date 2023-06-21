@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/KJSite/bin/KJSite.pdb
+/KJSite/bin/KJSite.dll.config
+/KJSite/bin/KJSite.dll

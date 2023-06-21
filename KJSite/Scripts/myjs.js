@@ -75,12 +75,11 @@ $(".contact").html(contact);
 $(".myName").html(Introduction.myName);
 $(".my-certifications").html(Introduction.myCerts);
 
-
 //Socials
-$(".gmail").html(Socials.mail);
-$(".github").html(Socials.github);
-$(".linkedin").html(Socials.linkedin);
-$(".phone-no").html(Socials.phone);
+$(".gmail").html(socials.mail);
+$(".github").html(socials.github);
+$(".linkedin").html(socials.linkedin);
+$(".phone-no").html(socials.phone);
 
 
 //This year
