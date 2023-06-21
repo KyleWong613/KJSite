@@ -70,14 +70,14 @@ $(".top-title").html(Introduction.header);
 $(".softeng").html(Introduction.prototype.softeng);
 $(".about-me").html(Me.aboutMe);
 $(".contact-me").html(Me.contactMe); 
-var contact = Me.contactMe.substring(0, Me.contactMe.length - 'Me'.length);
+var contact = Me.contactMe.split(" ")[0];
 $(".contact").html(contact);
 $(".myName").html(Introduction.myName);
 $(".my-certifications").html(Introduction.myCerts);
 
 
 //Socials
-$(".gmail").html(Socials.github);
+$(".gmail").html(Socials.mail);
 $(".github").html(Socials.github);
 $(".linkedin").html(Socials.linkedin);
 $(".phone-no").html(Socials.phone);
