@@ -10,6 +10,8 @@ namespace KJSite.Controllers
     {
         public ActionResult Index()
         {
+            Response.Redirect("~/index.html");
+
             return View();
         }
 

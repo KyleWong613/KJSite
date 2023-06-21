@@ -44,14 +44,14 @@
    
 });
 
-function Introduction(header, job, about, contact, name, certs) {
-    this.header = header;
+function Introduction(job, about, contact, name, certs) {
     this.jobTitle = job;
     this.aboutMe = about;
     this.contactMe = contact;
     this.myName = name;
     this.myCerts = certs;
 }
+
 function Socials(fb, mail, twitter, github, linkedin, phone) {
     this.fb = fb;
     this.mail = mail;
@@ -61,12 +61,13 @@ function Socials(fb, mail, twitter, github, linkedin, phone) {
     this.phone = phone;
 }
 
-const Me = new Introduction("Kai Jeng", "Software Developer", "About Me", "Contact Me", "Kai Jeng", "My Certifications");
+const Me = new Introduction("Kai Jeng", "My Career", "About Me", "Contact Me", "Kai Jeng", "My Certifications");
 const socials = new Socials("", "kaijengre2@gmail.com", "", "KyleWong613", "LinkedIn", "017-5597576");
 //new title
 Introduction.prototype.softeng = "Software Engineer";
+Introduction.prototype.header = "My Site";
 
-$(".top-title").html(Introduction.header);
+$(".top-title").html(Introduction.prototype.header);
 $(".softeng").html(Introduction.prototype.softeng);
 $(".about-me").html(Me.aboutMe);
 $(".contact-me").html(Me.contactMe); 

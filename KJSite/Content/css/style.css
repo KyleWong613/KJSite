@@ -402,6 +402,13 @@ font-size: 30px;
    background-color:#E9E9E9!important;
 }
 
+.has-text-success {
+    color: #5BE9B9 !important;
+}
+
+.has-text-dark {
+    color: #141c3a !important;
+}
 /*=======================================
     FOOTER STYLES
 ==================================================*/
