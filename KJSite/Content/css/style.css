@@ -409,6 +409,10 @@ font-size: 30px;
 .has-text-dark {
     color: #141c3a !important;
 }
+
+.has-text-primary {
+    color: #6E07F3 !important;
+}
 /*=======================================
     FOOTER STYLES
 ==================================================*/
