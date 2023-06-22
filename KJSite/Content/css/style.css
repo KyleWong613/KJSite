@@ -335,6 +335,11 @@ font-size: 30px;
 .service-div > i {
     color:rgba(252, 64, 101, 1);
 }
+    .service-div ul {
+        list-style: none;
+        margin-left: 0;
+        margin-top: 0;
+    }
 
 /*=======================================
     STATS SECTION STYLES
