@@ -324,13 +324,15 @@ font-size: 30px;
 }
 
 .service-div {
-	width: 100%;
-	min-height: 100px;
-	background-color: #F2F4F6;
-	box-shadow: none;
-	border: 0;
-    padding:20px;
-    margin-bottom:30px;
+    width: 100%;
+    min-height: 100px;
+    background-color: #F2F4F6;
+    box-shadow: none;
+    border: 0;
+    margin-bottom: 30px;
+    border-bottom: 0px solid #E6ECF8;
+    border-right: 1px solid #E6ECF8;
+    padding: 60px 35px;
 }
 .service-div > i {
     color:rgba(252, 64, 101, 1);
