@@ -3,7 +3,7 @@
 Welcome to my portfolio! This portfolio summarises the skills that I have built throughout my career
 
 ## 📚 Table of Contents
-- [Portfolio] (#portfolio)
+- [Portfolio](#portfolio)
 - [FrontEnd](#frontend)
 - [C#](#csharp)
 - [Python](#python)
@@ -20,7 +20,7 @@ https://kaijeng.netlify.app/
 
 | Project Link | Tools | Project Description | 
 |---|---|---|
-| 🏡 [Ruthless Real Estate](https://github.com/KyleWong613/RuthlessRealEstate_PHP) | Python, GCP (Storage, Compute Engine, BigQuery), Mage, Looker Studio | Developed and implemented an end-to-end ETL pipeline for processinsg NYC Trip Record data. The pipeline encompassed extracting raw data, performing data transformation using Python, applying fact and dimensional data modelling techniques, orchestrating the pipeline on Mage, and ultimately creating a dashboard using Looker Studio. |
+| 🏡 [Ruthless Real Estate](https://github.com/KyleWong613/RuthlessRealEstate_PHP) | PHP, HTML | A Mini Project Developed with PHP for the University Project
 | ✌️ [My Vue Project](https://github.com/KyleWong613/my-vue-proj) | Vue | My Vue Sandbox.
 | 🅰️ [Angular](https://github.com/KyleWong613/angular-kaijeng) | Angular | My Angular Sandbox.
 ***
@@ -37,4 +37,4 @@ https://kaijeng.netlify.app/
 | Project Link | Tools | Project Description | 
 |---|---|---|
 | 🏡 [Google Drive Inspector](https://github.com/KyleWong613/GoogleDriveInspector) | Python, JSON | University Project
-| ₿ [Bitcoin Ticker] (https://github.com/KyleWong613/BTC-ticker-yfinance) | Python | Cryptocurrency Ticker
+| ₿ [Bitcoin Ticker](https://github.com/KyleWong613/BTC-ticker-yfinance) | Python | Cryptocurrency Ticker
