@@ -7,7 +7,7 @@ Welcome to my portfolio! This portfolio summarises the skills that I have built 
 - [FrontEnd](#frontend)
 - [C#](#csharp)
 - [Python](#python)
-
+- [Certificates](#certificate)
 
 # Portfolio
 
@@ -37,3 +37,13 @@ You can view my portfolio [here](https://kaijeng.netlify.app/)
 |---|---|---|
 | 🏡 [Google Drive Inspector](https://github.com/KyleWong613/GoogleDriveInspector) | Python, JSON | University Project
 | ₿ [Bitcoin Ticker](https://github.com/KyleWong613/BTC-ticker-yfinance) | Python | Cryptocurrency Ticker
+
+
+# Certificates
+
+| Project Link | Links | 
+|---|---|
+
+|Web Fundamentals | https://codedamn.com/certificate/verify/1ce58fd74d4daefc63e6d8c2c63880a1b922bb06(https://codedamn.com/certificate/verify/1ce58fd74d4daefc63e6d8c2c63880a1b922bb06)
+|Cloud Native| https://courses.cognitiveclass.ai/certificates/41d115f3335e41ab975bf443ee63e679(https://courses.cognitiveclass.ai/certificates/41d115f3335e41ab975bf443ee63e679)
+|Facebook Pixel| https://www.udemy.com/certificate/UC-f4b3aea4-82a7-478f-a0f9-a8a212fa7723/(https://www.udemy.com/certificate/UC-f4b3aea4-82a7-478f-a0f9-a8a212fa7723/)
