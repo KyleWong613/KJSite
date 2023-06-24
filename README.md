@@ -44,6 +44,6 @@ You can view my portfolio [here](https://kaijeng.netlify.app/)
 | Project Link | Links | 
 |---|---|
 
-| Web Fundamentals | https://codedamn.com/certificate/verify/1ce58fd74d4daefc63e6d8c2c63880a1b922bb06(https://codedamn.com/certificate/verify/1ce58fd74d4daefc63e6d8c2c63880a1b922bb06)
-| Cloud Native | https://courses.cognitiveclass.ai/certificates/41d115f3335e41ab975bf443ee63e679(https://courses.cognitiveclass.ai/certificates/41d115f3335e41ab975bf443ee63e679)
-| Facebook Pixel | https://www.udemy.com/certificate/UC-f4b3aea4-82a7-478f-a0f9-a8a212fa7723/(https://www.udemy.com/certificate/UC-f4b3aea4-82a7-478f-a0f9-a8a212fa7723/)
+| Web Fundamentals | [https://codedamn.com/certificate/verify/1ce58fd74d4daefc63e6d8c2c63880a1b922bb06](https://codedamn.com/certificate/verify/1ce58fd74d4daefc63e6d8c2c63880a1b922bb06)
+| Cloud Native | [https://courses.cognitiveclass.ai/certificates/41d115f3335e41ab975bf443ee63e679](https://courses.cognitiveclass.ai/certificates/41d115f3335e41ab975bf443ee63e679)
+| Facebook Pixel | [https://www.udemy.com/certificate/UC-f4b3aea4-82a7-478f-a0f9-a8a212fa7723](https://www.udemy.com/certificate/UC-f4b3aea4-82a7-478f-a0f9-a8a212fa7723/)
