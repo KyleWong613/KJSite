@@ -11,7 +11,7 @@ Welcome to my portfolio! This portfolio summarises the skills that I have built 
 
 # Portfolio
 
-You can view my portfolio [here]{https://kaijeng.netlify.app/)
+You can view my portfolio [here](https://kaijeng.netlify.app/)
 
 ***
 
