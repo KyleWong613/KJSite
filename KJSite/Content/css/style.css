@@ -319,6 +319,9 @@ font-size: 30px;
 {
     margin-right: 20px;
 }
+.owl-theme .owl-nav {
+    display: none;
+}
 /*=======================================
     SERVICE SECTION STYLES
 ==================================================*/
