@@ -315,12 +315,16 @@ font-size: 30px;
 .c-a {
     background-color: #818181!important;
 }
+.owl-item
+{
+    margin-right: 20px;
+}
 /*=======================================
     SERVICE SECTION STYLES
 ==================================================*/
 #services-inner {
-    padding-top:50px;
-    padding-bottom:40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .service-div {
