@@ -5,6 +5,20 @@
     let relaxation = 'relaxation'
     let cooking = 'cooking'
     let busywork = 'busywork'
+    //github api
+    let githubrepo = 'https://api.github.com/repos/kylewong613/kjsite'
+
+    $.ajax({
+        url: githubrepo,
+        contentType: "application/json",
+        dataType: 'json',
+        success: function (kjsite) {
+            $('.kjsite-repo').html(kjsite.name);
+            $('.kjsite-repo').attr('href', kjsite.html_url);
+            $('.kjsite-repo').attr('target', '_blank');
+        }
+    });
+
     //education
     $.ajax({
         url: boredapi + "?type=" + education,
