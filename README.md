@@ -5,9 +5,9 @@ Welcome to my portfolio! This portfolio summarises the skills that I have built 
 ## 📚 Table of Contents
 - [Portfolio](#portfolio)
 - [FrontEnd](#frontend)
-- [C#](#csharp)
+- [C#](#c#)
 - [Python](#python)
-- [Certificates](#certificate)
+- [Certificates](#certificates)
 
 # Portfolio
 
