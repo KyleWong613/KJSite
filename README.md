@@ -5,13 +5,13 @@ Welcome to my portfolio! This portfolio summarises the skills that I have built 
 ## 📚 Table of Contents
 - [Portfolio](#portfolio)
 - [FrontEnd](#frontend)
-- [C#](#c#)
+- [CSharp](#csharp)
 - [Python](#python)
 - [Certificates](#certificates)
 
 # Portfolio
 
-You can view my portfolio [here](https://kaijeng.netlify.app/)
+You can view my portfolio [here](https://kaijeng.netlify.app/).
 
 ***
 
@@ -24,11 +24,11 @@ You can view my portfolio [here](https://kaijeng.netlify.app/)
 | 🅰️ [Angular](https://github.com/KyleWong613/angular-kaijeng) | Angular | My Angular Sandbox.
 ***
 
-# C#
+# CSharp
 | Project Link | Tools | Project Description | 
 |---|---|---|
 |  [SOLID](https://github.com/KyleWong613/BatmanSOLID) | C# |  Solid Principles
-
+|  [MrsEasy](https://www.mrseasy.com/business) | C#, MVC |  Food Delivery Order Application
 
 
 # Python

@@ -6,7 +6,8 @@
     let cooking = 'cooking'
     let busywork = 'busywork'
     //github api
-    let githubrepo = 'https://api.github.com/repos/kylewong613/kjsite'
+    let githubrepo = 'https://api.github.com/repos/kylewong613/kjsite';
+    let github_profile_repo = 'https://api.github.com/repos/kylewong613/kylewong613';
 
     $.ajax({
         url: githubrepo,
@@ -14,8 +15,16 @@
         dataType: 'json',
         success: function (kjsite) {
             $('.kjsite-repo').html(kjsite.name);
-            $('.kjsite-repo').attr('href', kjsite.html_url);
-            $('.kjsite-repo').attr('target', '_blank');
+            $('.kjsite-repo').attr('href', kjsite.html_url).attr('target', '_blank');
+        }
+    });
+    $.ajax({
+        url: github_profile_repo,
+        contentType: "application/json",
+        dataType: 'json',
+        success: function (kjprof) {
+            $('.kjsite-readme-repo').html(kjprof.name);
+            $('.kjsite-readme-repo').attr('href', kjprof.html_url).attr('target', '_blank');
         }
     });
 
