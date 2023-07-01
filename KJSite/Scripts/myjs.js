@@ -67,8 +67,9 @@
    
 });
 
-function Introduction(job, about, contact, name, certs) {
+function Introduction(job, career, about, contact, name, certs) {
     this.jobTitle = job;
+    this.myCareer = career;
     this.aboutMe = about;
     this.contactMe = contact;
     this.myName = name;
