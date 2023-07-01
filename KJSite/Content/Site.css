@@ -54,6 +54,6 @@ textarea {
         height: 3.5rem !important;
     }
 
-    .title-profiles button:hover {
+    .title-profiles button a svg:hover {
         transform: scale(1.2);
     }
