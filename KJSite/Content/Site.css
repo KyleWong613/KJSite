@@ -41,3 +41,11 @@ textarea {
         -webkit-animation: 5s bounce linear infinite;
         animation: 5s bounce linear infinite;
     }
+
+.title-profiles button {
+    border: none;
+    background: none;
+    -webkit-appearance: button;
+    background-color: initial;
+    background-image: none;
+}
