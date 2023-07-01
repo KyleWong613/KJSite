@@ -45,7 +45,13 @@ textarea {
 .title-profiles button {
     border: none;
     background: none;
+    width: 4rem;
+    height: 4rem;
     -webkit-appearance: button;
     background-color: initial;
     background-image: none;
 }
+
+    .title-profiles button:hover {
+        transform: scale(1.2);
+    }
