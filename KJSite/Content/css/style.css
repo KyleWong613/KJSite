@@ -469,19 +469,22 @@ font-size: 30px;
 .icon-size {
     height: 35px;
     width: 35px;
+    transition: transform .2s;
 }
+    .icon-size:hover {
+        transform: scale(1.2);
+    }
+
 /* icon size tall*/
 .icon-size-tall {
     height: 40px;
     width: 35px;
-}
-
-.icon-size {
     transition: transform .2s;
 }
-.icon-size:hover {
-    transform: scale(1.2);
-}
+
+    .icon-size-tall:hover {
+        transform: scale(1.2);
+    }
 
 @media (max-width: 767px) {
     .icon-size {

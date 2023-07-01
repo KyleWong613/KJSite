@@ -32,8 +32,12 @@ textarea {
     width: 290px;
     margin: 0 auto 50px auto;
 }
-.part-img img {
-    width: 70%;
-    -webkit-animation: 5s bounce linear infinite;
-    animation: 5s bounce linear infinite;
+.profile-img {
+    width: 290px;
+    margin: 0 auto 50px auto;
 }
+    .profile-img img {
+        width: 70%;
+        -webkit-animation: 5s bounce linear infinite;
+        animation: 5s bounce linear infinite;
+    }
