@@ -476,6 +476,13 @@ font-size: 30px;
     width: 35px;
 }
 
+.icon-size {
+    transition: transform .2s;
+}
+.icon-size:hover {
+    transform: scale(1.2);
+}
+
 @media (max-width: 767px) {
     .icon-size {
         height: 30px !important;
