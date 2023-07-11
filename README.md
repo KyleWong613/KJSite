@@ -43,6 +43,8 @@ You can view my portfolio [here](https://kaijeng.netlify.app/).
 
 | Project Link | Links | 
 |---|---|
-| Web Fundamentals | [https://codedamn.com/certificate/verify/1ce58fd74d4daefc63e6d8c2c63880a1b922bb06](https://codedamn.com/certificate/verify/1ce58fd74d4daefc63e6d8c2c63880a1b922bb06)
+| Web Fundamentals | [Web Fundamentals](https://codedamn.com/certificate/verify/1ce58fd74d4daefc63e6d8c2c63880a1b922bb06)
+| Developing Cloud-Native Applications with Microservices Architectures | [Developing Cloud-Native Applications with Microservices Architectures](https://ibb.co/Np1jT65)
 | Cloud Native | [https://courses.cognitiveclass.ai/certificates/41d115f3335e41ab975bf443ee63e679](https://courses.cognitiveclass.ai/certificates/41d115f3335e41ab975bf443ee63e679)
-| Facebook Pixel | [https://www.udemy.com/certificate/UC-f4b3aea4-82a7-478f-a0f9-a8a212fa7723](https://www.udemy.com/certificate/UC-f4b3aea4-82a7-478f-a0f9-a8a212fa7723/)
+| Create Web Experiences Using AEM | [Create Web Experiences Using AEM](https://ibb.co/xMGt7bx)
+| Facebook Pixel | [Facebook Pixel](https://www.udemy.com/certificate/UC-f4b3aea4-82a7-478f-a0f9-a8a212fa7723/)
