@@ -20,6 +20,7 @@ You can view my portfolio [here](https://kaijeng.netlify.app/).
 | Project Link | Tools | Project Description | 
 |---|---|---|
 | 🏡 [Ruthless Real Estate](https://github.com/KyleWong613/RuthlessRealEstate_PHP) | PHP, HTML | A Mini Project Developed with PHP for the University Project
+| ✌️ [My Next Portfolio](https://github.com/KyleWong613/kj-next-app) | Vue | My Next Portfolio.
 | ✌️ [My Vue Project](https://github.com/KyleWong613/my-vue-proj) | Vue | My Vue Sandbox.
 | 🅰️ [Angular](https://github.com/KyleWong613/angular-kaijeng) | Angular | My Angular Sandbox.
 ***
