@@ -14,7 +14,7 @@
         contentType: "application/json",
         dataType: 'json',
         success: function (kjsite) {
-            $('.kjsite-repo').html(kjsite.name);
+            $('.kjsite-repo').html(kjsite.description);
             $('.kjsite-repo').attr('href', kjsite.html_url).attr('target', '_blank');
         }
     });
@@ -23,7 +23,7 @@
         contentType: "application/json",
         dataType: 'json',
         success: function (kjprof) {
-            $('.kjsite-readme-repo').html(kjprof.name);
+            $('.kjsite-readme-repo').html(kjprof.description);
             $('.kjsite-readme-repo').attr('href', kjprof.html_url).attr('target', '_blank');
         }
     });
